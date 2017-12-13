@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        rel="stylesheet"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="form.css">
+        <link href="<link href="https://fonts.googleapis.com/css?family=Lobster" 
+        rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form method="POST" action="https://script.google.com/macros/s/AKfycbxBb58gQ6H1HlW5x1xHe6on1J4g00ELr8ij1F7JMTjqJSlJZZk/exec">
+                
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <div class="input-group input-md">
+                            <span class="input-group-addon">
+                                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            </span>
+                            <input type="text" id="name" name="name" placeholder="John Smith"
+                            class="form-control" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                            <div class="input-group input-md">
+                                <span class="input-group-addon">
+                                        <i class="fa fa-at" aria-hidden="true"></i>
+                                </span>
+                                <input type="email" id="email" name="email" placeholder="johnsmith@me.com"
+                                class="form-control" required>
+                            </div>
+                    </div>
+
+                    <div class="form-group">
+                            <div class="input-group input-md">
+                                <span class="input-group-addon">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                </span>
+                                <input type="number" id="contact" name="contact" placeholder="+6512345678"
+                                class="form-control">
+                            </div>
+                    </div>
+
+                    <div class="form-group">
+                            <div class="input-group input-md">
+                                <span class="input-group-addon">
+                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                </span>
+                                <textarea class="form-control" rows="8" name="note">Leave a note</textarea>
+                            </div>
+                    </div>
+
+                    <button type="submit"> Submit
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

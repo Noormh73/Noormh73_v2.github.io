@@ -1,0 +1,17 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+.my-title{
+    position: relative;
+    top: 50 px;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 90%;
+    transition-property: border-bottom;
+    transition-duration: 180ms;
+    transition-timing-function: linear;
+}
+
+.img-circle:hover{
+    border-bottom: 3px 3px 3px orange solid;
+}

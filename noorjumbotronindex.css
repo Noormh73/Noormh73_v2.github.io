@@ -1,0 +1,23 @@
+.col-lg-7{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    font-size: 5em;
+}
+.container{
+    position: relative;
+    top: 30px;
+}
+.jumbotron{
+    position: relative;
+    top: 20px;
+}
+.row{
+    position: relative;
+    top: 20px;
+}
