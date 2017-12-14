@@ -1,3 +1,77 @@
-.my-title{
-    
+.container {
+    margin-top: 50px;
+}
+html, body {
+    height: 100%;
+  }
+  .container{
+    width: 1025px;
+  }
+  .vertical-center {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font: 0/0 a;         
+  }
+  .vertical-center:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+  .vertical-center > .container {
+    max-width: 100%;
+    background-color: black;
+    display: inline-block;
+    vertical-align: middle;
+    font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  @media (max-width: 768px) {
+    .vertical-center:before {
+      display: none;
+    }
+  }
+.my-container {
+    background-color: goldenrod;
+}
+.jumbotron {
+    background-color: goldenrod;
+}
+.my-title {
+    text-align: center;
+}
+.jumbotron img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.name {
+    text-align: center;
+    font-weight: bold 30px;
+    font-style: bold;
+}
+.quote {
+  text-align: center;
+  font-size: 4em;
+}
+.firstpara {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 1.5em;
+  text-align: justify;
+}
+.secondpara {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 1.5em;
+  text-align: justify;
+}
+.finalpara {
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 1.5em;
+  text-align: justify;
+}
+.btn-default {
+  float: initial;
 }
